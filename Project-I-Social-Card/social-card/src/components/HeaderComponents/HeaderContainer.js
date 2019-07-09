@@ -1,12 +1,16 @@
 import React from 'react';
 import './Header.css';
 import Title from './HeaderTitle.js';
-import Thumbnail from './ImageThumbnail.js';
+import ThumbNail from './ImageThumbnail.js';
+import ReactLogo from './ReactLogo.js';
 
 const HeaderContainer = props => {
     return (
-    <Thumbnail />
+    <div>
+    <ThumbNail />
+    <ReactLogo />
     <Title />
+    </div>
     )
 }
 

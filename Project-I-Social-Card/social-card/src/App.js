@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import CardBanner from './CardBanner';
-import CardContainer from './CardContainer';
-import CardContent from '/CardContainer';
+import CardContainer from './components/CardComponents/CardContainer.js';
 
 const App = () => {
   return (
@@ -20,8 +18,9 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <CardContainer />
     </div>
-  );
+  )
 };
 
 export default App;

@@ -1,7 +1,12 @@
 import React from 'react';
 import './Header.css';
+import LambdaLogo from './lambdaLogo.jpg';
 
 const ThumbNail = props => {
-    <img src="" alt="ThumbnailImg"></img>
+    return (
+    <img src={LambdaLogo} alt="Thumbnail"></img>
+    )
 }
-export default ThumbNail;
+
+
+export default ThumbNail
