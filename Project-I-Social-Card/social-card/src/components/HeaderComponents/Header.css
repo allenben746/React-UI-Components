@@ -1,1 +1,9 @@
 /* All styles for your header Components live here */
+
+.topText {
+    color: red;
+}
+
+.reactLogo {
+    max-width: 100%;
+}
