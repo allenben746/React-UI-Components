@@ -4,7 +4,7 @@ import ReactPicture from './reactLogo.jpg';
 
 const ReactLogo = props => {
     return (
-        <img src={ReactPicture} alt="React Logo"></img>
+        <img className="reactLogo" src={ReactPicture} alt="React Logo"></img>
     )
 }
 export default ReactLogo

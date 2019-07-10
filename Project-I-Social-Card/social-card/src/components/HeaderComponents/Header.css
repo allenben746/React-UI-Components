@@ -2,8 +2,13 @@
 
 .topText {
     color: red;
+    border: solid 10px;
 }
 
 .reactLogo {
     max-width: 100%;
+}
+
+.lambdaLogo img {
+    border-radius: 100%;
 }
