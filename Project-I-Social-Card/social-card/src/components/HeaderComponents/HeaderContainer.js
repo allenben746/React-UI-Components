@@ -7,13 +7,17 @@ import ReactLogo from './ReactLogo.js';
 const HeaderContainer = props => {
     return (
     <div className = "rootContainer">
-    <div className = "lambdaLogo">
-    <ThumbNail />
-    </div>
+    <section className="thumbnailTextContainer">
+        <div className = "lambdaLogo">
+        <ThumbNail />
+        </div>
+        <div className="title">
+        <Title />
+        </div>
+    </section>
     <div className="reactLogo">
     <ReactLogo />
     </div>
-    <Title />
     </div>
     )
 }

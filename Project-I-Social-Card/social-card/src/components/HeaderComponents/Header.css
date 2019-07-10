@@ -1,14 +1,20 @@
 /* All styles for your header Components live here */
 
-.topText {
-    color: red;
-    border: solid 10px;
+.thumbnailTextContainer {
+    
+
+    
+        .title {
+            color: blue;
+        }
 }
 
 .reactLogo {
-    max-width: 100%;
+    max-width: 70%;
 }
 
 .lambdaLogo img {
     border-radius: 100%;
+    max-width: 30%;
+    height: auto;
 }
